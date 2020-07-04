@@ -6,7 +6,7 @@
 .wrapper
 {
 	margin: 0 auto;
-	width: 1200px;
+	width: 1400px;
 }
 
 body
@@ -41,6 +41,12 @@ ul li a
 	
 }
 ul li a:hover
+{
+	border:3px solid black;
+	color: white;
+	background-color: black;
+}
+ul li.active a
 {
 	border:3px solid black;
 	color: white;
