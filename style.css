@@ -28,6 +28,35 @@ a {
   text-decoration: none;
 }
 
+.profile
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image
+{
+  position: relative;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  border: 5px solid rgb(245, 105, 11);
+  
+}
+
+.image .profile-image
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px #f87a05;
+
+
+}
+
+
 .navbar {
   min-height: 70px;
   display: flex;
