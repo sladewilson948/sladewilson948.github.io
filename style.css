@@ -39,8 +39,8 @@ a {
 {
   position: relative;
   border-radius: 50%;
-  height: 160px;
-  width: 160px;
+  height: 250px;
+  width: 250px;
   border: 5px solid rgb(245, 105, 11);
   
 }
@@ -251,6 +251,34 @@ footer {
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
+
+  .profile
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image
+{
+  position: relative;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  border: 5px solid rgb(245, 105, 11);
+  
+}
+
+.image .profile-image
+{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px #f87a05;
+
+
+}
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
