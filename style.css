@@ -211,7 +211,7 @@ footer {
 
 
 .animation {
-  animation: typewriter 4s steps(15) 1s infinite both,
+  animation: typewriter 4s steps(15) 1s,
     blinkCursor 500ms steps(15) infinite;
 }
 
